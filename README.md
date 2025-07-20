@@ -8,9 +8,11 @@ In this repo we are going to dive into the [Meta-kaggle-hackathon](https://www.k
 
 **Dataset Recommendation through DOC2VEC**
 
+![feature_computation.png](assets/images/feature_computation.png)
+
 ## Overview
 
-K-DATARECO is a recommendation system that suggests Kaggle datasets and similar users based on voting behavior and dataset semantics. It leverages document embeddings (via Doc2Vec) trained on dataset metadata to model user interests and enable two primary types of recommendations:
+_Echoes of Interest_ is a recommendation system that suggests Kaggle datasets and similar users based on voting behavior and dataset semantics. It leverages document embeddings (via Doc2Vec) trained on dataset metadata to model user interests and enable two primary types of recommendations:
 
 * **“People who liked this dataset also liked...”**
 * **“You might want to connect with this user...”**
