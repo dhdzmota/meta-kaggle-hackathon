@@ -1,0 +1,29 @@
+# --- Data manipulation ---
+pandas==2.3.0            # Core data handling and transformation
+numpy==1.26.4            # Numerical operations and array support
+
+# --- NLP & Embedding ---
+nltk==3.9.1              # Tokenization and text preprocessing
+gensim==4.3.3            # Doc2Vec embeddings for semantic modeling
+
+# --- Machine Learning & Modeling ---
+scikit-learn==1.7.0      # Train/test splits, similarity metrics
+scipy==1.13.1            # KDE and distance functions
+
+# --- Visualization ---
+matplotlib==3.10.3       # Plots for data exploration and evaluation
+networkx==3.5            # Graph analysis or visualization (e.g. user-user or dataset graphs)
+
+# --- Performance Enhancements ---
+swifter==1.4.0           # Accelerates pandas operations with parallelization
+
+# --- File I/O and Serialization ---
+pyarrow==20.0.0          # Reading/writing Parquet files
+pickle5==0.0.11          # Saving/loading Python objects
+
+# --- Interactive UI & Development ---
+gradio==5.35.0           # Web-based UI for model demo or input testing
+jupyter==1.1.1           # For running interactive notebooks during development
+
+# --- Utilities ---
+tqdm==4.67.1             # Progress bars for processing loops
